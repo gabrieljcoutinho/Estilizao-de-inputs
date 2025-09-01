@@ -1,0 +1,731 @@
+/* 1 */
+.input1 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* 2 */
+.input2 {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 3 */
+.input3:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* 4 */
+.input4 {
+    background: black;
+    color: #0f0;
+    border: 1px solid #0f0;
+}
+
+.input4:focus {
+    box-shadow: 0 0 10px #0f0;
+}
+
+/* 5 */
+.input5 {
+    transition: 0.3s;
+}
+
+.input5:focus {
+    border-color: dodgerblue;
+    transform: scale(1.05);
+}
+
+/* 6 */
+.input6 {
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+}
+
+/* 7 */
+.input7 {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+}
+
+/* 8 */
+.input8 {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+/* 9 */
+.input9 {
+    border-radius: 50px;
+    padding: 12px 20px;
+}
+
+/* 10 */
+.input10 {
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* 11 */
+.input11:focus {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* 12 */
+.input12::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+/* 13 */
+.input13 {
+    border: 3px double #333;
+}
+
+/* 14 */
+.input14 {
+    border: 2px dotted #007bff;
+}
+
+/* 15 */
+.input15 {
+    border: 3px solid;
+    border-image: linear-gradient(to right, red, yellow);
+    border-image-slice: 1;
+}
+
+/* 16 */
+.input16 {
+    font-family: monospace;
+    background: #222;
+    color: #0f0;
+}
+
+/* 17 */
+.input17 {
+    background: url("search-icon.png") no-repeat 10px center;
+    padding-left: 40px;
+}
+
+/* 18 */
+.input18:focus {
+    box-shadow: 0 0 10px 2px #00f;
+}
+
+/* 19 */
+.input19 {
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.input19:focus {
+    border-bottom: 2px solid blue;
+}
+
+/* 20 */
+@keyframes borderAnim {
+    0% {
+        border-color: red;
+    }
+
+    50% {
+        border-color: yellow;
+    }
+
+    100% {
+        border-color: red;
+    }
+}
+
+.input20:focus {
+    animation: borderAnim 2s infinite;
+}
+
+/* 21 */
+.input21 {
+    border-radius: 20px 0 20px 0;
+}
+
+/* 22 */
+.input22 {
+    background: #333;
+    color: #fff;
+}
+
+/* 23 */
+.input23 {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/* 24 */
+.input24:focus {
+    box-shadow: 0 0 15px red;
+}
+
+/* 25 */
+.input25 {
+    box-shadow: 5px 5px 0 #333;
+}
+
+/* 26 */
+.input26 {
+    border-radius: 0;
+}
+
+/* 27 */
+.input27 {
+    background: linear-gradient(270deg, #ff8a00, #e52e71);
+    background-size: 400% 400%;
+    animation: gradientAnim 8s ease infinite;
+}
+
+@keyframes gradientAnim {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+/* 28 */
+.input28 {
+    border: 2px solid #0ff;
+    box-shadow: 0 0 5px #0ff;
+}
+
+/* 29 */
+.input29 {
+    box-shadow: 2px 2px 5px #555;
+}
+
+/* 30 */
+.input30 {
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* 31 */
+.input31 {
+    border: 2px dashed #555;
+}
+
+/* 32 */
+.input32 {
+    box-shadow: 0 0 5px red, 0 0 10px yellow;
+}
+
+/* 33 */
+.input33 {
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background: linear-gradient(to right, red, yellow);
+}
+
+/* 34 */
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+}
+
+.input34.error {
+    animation: shake 0.3s;
+}
+
+/* 35 */
+.input35:focus {
+    box-shadow: 0 0 15px #a855f7;
+}
+
+/* 36 */
+.input36 {
+    font-family: 'Press Start 2P', cursive;
+    border: 4px solid black;
+}
+
+/* 37 */
+.input37 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* 38 */
+.input38 {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* 39 */
+.input39 {
+    transition: border-width 0.3s;
+}
+
+.input39:focus {
+    border-width: 4px;
+}
+
+/* 40 */
+.input40 {
+    background: radial-gradient(circle, #ff7eb3, #ff758c);
+    color: white;
+}
+
+/* 41 */
+.input41:focus {
+    box-shadow: 0 0 10px #4CAF50;
+}
+
+/* 42 */
+.input42 {
+    background: rgba(0, 0, 255, 0.2);
+    backdrop-filter: blur(6px);
+}
+
+/* 43 */
+.input43 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* 44 */
+.input44 {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+/* 45 */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 5px #0ff;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #0ff;
+    }
+
+    100% {
+        box-shadow: 0 0 5px #0ff;
+    }
+}
+
+.input45:focus {
+    animation: pulse 1.5s infinite;
+}
+
+/* 46 */
+.input46 {
+    text-transform: uppercase;
+}
+
+/* 47 */
+.input47 {
+    background: #f5f5dc;
+    border: 1px solid #d4cfc9;
+    font-family: "Times New Roman";
+}
+
+/* 48 */
+.input48 {
+    border: 3px solid transparent;
+    border-image: linear-gradient(45deg, purple, orange);
+    border-image-slice: 1;
+}
+
+/* 49 */
+.input49 {
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.input49:hover {
+    transform: translateY(-3px);
+}
+
+/* 50 */
+.input50 {
+    background: black;
+    border: 2px solid cyan;
+    color: cyan;
+    text-shadow: 0 0 5px cyan;
+}
+
+.input51 {
+    box-shadow: 0 0 5px pink;
+}
+
+/* 52. Input com fundo gradiente horizontal */
+.input52 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+}
+
+/* 53. Input com borda grossa azul */
+.input53 {
+    border: 4px solid #007bff;
+}
+
+/* 54. Input estilo cartão */
+.input54 {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 55. Input com placeholder animado */
+.input55::placeholder {
+    color: #aaa;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.input55:focus::placeholder {
+    opacity: 0;
+}
+
+/* 56. Input com fundo degradê circular */
+.input56 {
+    background: radial-gradient(circle, #ffafbd, #ffc3a0);
+}
+
+/* 57. Input com foco neon laranja */
+.input57:focus {
+    box-shadow: 0 0 10px orange;
+}
+
+/* 58. Input com letras vermelhas */
+.input58 {
+    color: red;
+}
+
+/* 59. Input estilo sombra dupla */
+.input59 {
+    box-shadow: 2px 2px 5px #999, -2px -2px 5px #ccc;
+}
+
+/* 60. Input com borda arredondada topo */
+.input60 {
+    border-radius: 20px 20px 0 0;
+}
+
+/* 61. Input com hover brilhante */
+.input61:hover {
+    box-shadow: 0 0 10px yellow;
+}
+
+/* 62. Input com foco azul neon */
+.input62:focus {
+    box-shadow: 0 0 10px cyan;
+}
+
+/* 63. Input com fundo escuro degradê */
+.input63 {
+    background: linear-gradient(to bottom, #222, #555);
+    color: white;
+}
+
+/* 64. Input estilo vintage */
+.input64 {
+    font-family: 'Courier New', monospace;
+    border: 2px solid brown;
+    background: #f5deb3;
+}
+
+/* 65. Input com efeito pop */
+.input65:focus {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+/* 66. Input com gradiente arco-íris */
+.input66 {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+}
+
+/* 67. Input estilo botão 3D */
+.input67 {
+    border: none;
+    background: #28a745;
+    color: white;
+    box-shadow: 0 5px #1e7e34;
+}
+
+.input67:active {
+    box-shadow: 0 2px #1e7e34;
+    transform: translateY(3px);
+}
+
+/* 68. Input com foco roxo */
+.input68:focus {
+    border-color: purple;
+}
+
+/* 69. Input transparente com borda rosa */
+.input69 {
+    background: transparent;
+    border: 2px solid pink;
+}
+
+/* 70. Input com sombra leve interna */
+.input70 {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* 71. Input minimalista cinza */
+.input71 {
+    border: none;
+    border-bottom: 1px solid #888;
+    background: transparent;
+}
+
+/* 72. Input com efeito de pulsação */
+.input72 {
+    animation: pulse2 2s infinite;
+}
+
+@keyframes pulse2 {
+    0% {
+        box-shadow: 0 0 0 #ff0;
+    }
+
+    50% {
+        box-shadow: 0 0 10px #ff0;
+    }
+
+    100% {
+        box-shadow: 0 0 0 #ff0;
+    }
+}
+
+/* 73. Input com foco verde neon */
+.input73:focus {
+    box-shadow: 0 0 10px #0f0;
+}
+
+/* 74. Input com gradiente diagonal */
+.input74 {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+}
+
+/* 75. Input estilo vidro azul */
+.input75 {
+    background: rgba(0, 0, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+}
+
+/* 76. Input circular com sombra */
+.input76 {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    box-shadow: 2px 2px 5px #333;
+}
+
+/* 77. Input com efeito shake leve */
+.input77:focus {
+    animation: shake2 0.5s;
+}
+
+@keyframes shake2 {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-3px);
+    }
+
+    75% {
+        transform: translateX(3px);
+    }
+}
+
+/* 78. Input com borda laranja */
+.input78 {
+    border: 2px solid orange;
+}
+
+/* 79. Input com hover azul */
+.input79:hover {
+    border-color: blue;
+}
+
+/* 80. Input degradê horizontal suave */
+.input80 {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+/* 81. Input com foco roxo neon */
+.input81:focus {
+    box-shadow: 0 0 15px #a855f7;
+}
+
+/* 82. Input com efeito 3D invertido */
+.input82 {
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* 83. Input com texto em maiúsculas e negrito */
+.input83 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* 84. Input estilo minimalista branco */
+.input84 {
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+/* 85. Input com foco amarelo */
+.input85:focus {
+    box-shadow: 0 0 10px yellow;
+}
+
+/* 86. Input com borda tracejada verde */
+.input86 {
+    border: 2px dashed #0f0;
+}
+
+/* 87. Input circular com gradiente */
+.input87 {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+/* 88. Input com efeito glow vermelho */
+.input88:focus {
+    box-shadow: 0 0 15px red;
+}
+
+/* 89. Input estilo papel antigo */
+.input89 {
+    background: #fdf5e6;
+    border: 1px solid #d2b48c;
+    font-family: 'Georgia', serif;
+}
+
+/* 90. Input com sombra colorida */
+.input90 {
+    box-shadow: 0 0 5px red, 0 0 5px yellow;
+}
+
+/* 91. Input com hover suavizado */
+.input91:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* 92. Input estilo futurista azul */
+.input92 {
+    background: black;
+    border: 2px solid cyan;
+    color: cyan;
+    text-shadow: 0 0 5px cyan;
+}
+
+/* 93. Input com foco rosa */
+.input93:focus {
+    box-shadow: 0 0 10px pink;
+}
+
+/* 94. Input com gradiente vertical */
+.input94 {
+    background: linear-gradient(to bottom, #00c6ff, #0072ff);
+    color: white;
+}
+
+/* 95. Input minimalista com placeholder */
+.input95 {
+    border: none;
+    border-bottom: 1px solid gray;
+    background: transparent;
+}
+
+.input95::placeholder {
+    color: #888;
+}
+
+/* 96. Input com hover roxo */
+.input96:hover {
+    border-color: purple;
+}
+
+/* 97. Input com borda fina */
+.input97 {
+    border: 1px solid #333;
+}
+
+/* 98. Input circular com sombra neon */
+.input98 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px #0ff;
+}
+
+/* 99. Input com efeito flutuante leve */
+.input99 {
+    transition: transform 0.3s;
+}
+
+.input99:hover {
+    transform: translateY(-5px);
+}
+
+/* 100. Input estilo neon rosa */
+.input100 {
+    background: black;
+    border: 2px solid #ff69b4;
+    color: #ff69b4;
+    text-shadow: 0 0 5px #ff69b4;
+}
+
+/* Layout geral */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+input {
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    font-size: 14px;
+}
