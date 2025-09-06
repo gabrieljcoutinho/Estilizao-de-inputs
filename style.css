@@ -119,13 +119,16 @@
 }
 
 
-/* 100. Input estilo neon rosa */
+
 .input17 {
-    background: black;
-    border: 2px solid #ff69b4;
-    color: #ff69b4;
-    text-shadow: 0 0 5px #ff69b4;
+    background: #fff url("./pesquisa.png") no-repeat right 10px center;
+    background-size: 20px 20px;
+    /* tamanho da imagem */
+
+    /* espaço pro texto não bater na imagem */
 }
+
+
 
 /* Layout geral */
 body {
